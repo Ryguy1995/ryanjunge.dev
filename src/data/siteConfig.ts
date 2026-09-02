@@ -2,10 +2,10 @@ export const siteConfig = {
   name: 'Ryan Junge',
   role: 'Software Engineer',
   tagline: 'I build fast, accessible, and thoughtful web applications.',
-  email: 'hello@ryanjunge.dev',
+  email: 'contact@ryanjunge.dev',
   social: {
-    github: 'https://github.com/ryanjunge',
-    linkedin: 'https://linkedin.com/in/ryanjunge',
+    github: 'https://github.com/Ryguy1995',
+    linkedin: 'https://linkedin.com/in/ryan-junge-619986295/',
   },
   nav: [
     { label: 'Home', path: '/' },
