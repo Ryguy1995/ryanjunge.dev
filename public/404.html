@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ryanjunge.dev</title>
+    <script>
+      // GitHub Pages SPA redirect: preserve the requested path as a query
+      // string so index.html can restore it via history.replaceState.
+      var path = location.pathname + location.search + location.hash
+      location.replace('/?redirect=' + encodeURIComponent(path))
+    </script>
+  </head>
+  <body></body>
+</html>
