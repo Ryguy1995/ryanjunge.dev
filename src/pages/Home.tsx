@@ -22,10 +22,10 @@ export function Home() {
         <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
           {siteConfig.role}
         </p>
-        <h1 className="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-50">
+        <h1 className="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-100">
           Hi, I'm {siteConfig.name}
         </h1>
-        <p className="mx-auto mt-4 max-w-xl text-lg text-sky-500 dark:text-sky-500">
+        <p className="mx-auto mt-4 max-w-xl text-lg text-sky-500 dark:text-sky-200">
           {siteConfig.tagline}
         </p>
         <div className="mt-8 flex justify-center gap-4">
@@ -41,7 +41,7 @@ export function Home() {
         </div>
       </motion.section>
 
-      <section className="py-12">
+      <section className="py-12 dark:text-slate-900">
         <SectionHeading eyebrow="Featured" title="Recent Projects" />
         <div className="grid gap-6 sm:grid-cols-2">
           {featured.map((project) => (
