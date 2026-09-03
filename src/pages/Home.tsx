@@ -17,15 +17,15 @@ export function Home() {
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="py-16 text-center bg-sky-50 dark:bg-sky-900 text-cyan-900 dark:text-cyan-50"
+        className="py-16 text-center bg-sky-50 dark:bg-sky-900"
       >
         <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
           {siteConfig.role}
         </p>
-        <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-slate-100">
+        <h1 className="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-50">
           Hi, I'm {siteConfig.name}
         </h1>
-        <p className="mx-auto mt-4 max-w-xl text-lg text-slate-600 dark:text-slate-400">
+        <p className="mx-auto mt-4 max-w-xl text-lg text-sky-500 dark:text-sky-500">
           {siteConfig.tagline}
         </p>
         <div className="mt-8 flex justify-center gap-4">
