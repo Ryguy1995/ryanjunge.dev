@@ -17,7 +17,7 @@ export function Home() {
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="py-16 text-center bg-sky-50 dark:bg-sky-900"
+        className="py-16 text-center bg-sky-50 dark:bg-sky-900 text-cyan-900 dark:text-cyan-50"
       >
         <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
           {siteConfig.role}
