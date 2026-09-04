@@ -25,7 +25,7 @@ export function Home() {
             src={headshot}
             className="mx-auto mb-4 w-32 h-32 rounded-full"
         ></img>
-        <h1 className="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-100">
+        <h1 className="mb-3 text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-100">
           Hi, I'm {siteConfig.name}
         </h1>
         <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
