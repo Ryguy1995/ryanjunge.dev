@@ -12,7 +12,7 @@ export function Home() {
   const featured = projects.filter((p) => p.featured)
 
   return (
-    <div className = "bg-emerald-50 dark:bg-gray-500">
+    <div>
       <motion.section
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}

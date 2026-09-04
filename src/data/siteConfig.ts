@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Ryan Junge',
-  role: 'Software Engineer',
-  tagline: 'I build fast, accessible, and thoughtful web applications.',
+  role: 'Bachelor of Science in Computer Science',
+  tagline: 'I build open-source web applications.',
   email: 'contact@ryanjunge.dev',
   social: {
     github: 'https://github.com/Ryguy1995',
