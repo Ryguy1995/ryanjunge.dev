@@ -23,7 +23,7 @@ export function Home() {
         
         <img 
             src={headshot}
-            className="mx-auto mb-4 max-w-full h-auto "
+            className="mx-auto mb-4 w-120 h-180 "
         ></img>
         <h1 className="mb-3 text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-100">
           Hi, I'm {siteConfig.name}
