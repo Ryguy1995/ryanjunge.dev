@@ -12,7 +12,7 @@ export function Home() {
   const featured = projects.filter((p) => p.featured)
 
   return (
-    <div>
+    <div className = "bg-emerald-50 dark:bg-gray-500">
       <motion.section
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ export function Home() {
         </div>
       </motion.section>
 
-      <section className="py-12 dark:text-slate-900">
+      <section className="py-12">
         <SectionHeading eyebrow="Featured" title="Recent Projects" />
         <div className="grid gap-6 sm:grid-cols-2">
           {featured.map((project) => (
