@@ -22,7 +22,7 @@ export function Home() {
         <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
           {siteConfig.role}
         </p>
-        <img src="./assets/Headshot.jpg" alt="Description"></img>
+        <img src="../assets/Headshot.jpg" alt="Description"></img>
         <h1 className="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-100">
           Hi, I'm {siteConfig.name}
         </h1>
