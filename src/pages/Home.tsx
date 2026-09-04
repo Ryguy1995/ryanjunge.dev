@@ -7,6 +7,7 @@ import { buttonClassName } from '../components/ui/Button'
 import { Card } from '../components/ui/Card'
 import { Badge } from '../components/ui/Badge'
 import { SectionHeading } from '../components/ui/SectionHeading'
+import headshot from '../assets/Headshot.jpg'
 
 export function Home() {
   const featured = projects.filter((p) => p.featured)
@@ -19,13 +20,17 @@ export function Home() {
         transition={{ duration: 0.4 }}
         className="py-16 text-center"
       >
-        <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
-          {siteConfig.role}
-        </p>
-        <img src="../assets/Headshot.jpg" alt="Description"></img>
+        
+        <img 
+            src={headshot}
+            className="mx-auto mb-4 w-32 h-32 rounded-full"
+        ></img>
         <h1 className="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl dark:text-sky-100">
           Hi, I'm {siteConfig.name}
         </h1>
+        <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400">
+          {siteConfig.role}
+        </p>
         <p className="mx-auto mt-4 max-w-xl text-lg text-sky-500 dark:text-sky-200">
           {siteConfig.tagline}
         </p>
